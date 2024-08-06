@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--One looming technical issue is that we would want this to force window at 4:3 or otherwise create bars in window if this is to be viewed as it would be in gallery. Here's Mozilla's JS syntax https://developer.mozilla.org/en-US/docs/Web/API/Window/resizeTo
+  We would want to say in introduction that it is not a mobile experience, possibly a media query that loads a diff page that lets you email a link to yourself to play later-->
+  
+  <a href="tollygunge.html"><img id="crow-index" src="images/crow.webp" alt="Crow to follow"> </a>
+
+  <div class="backgroundVid">
+    <video id="introvideo" width="100%" autoplay muted loop src="Video/Tester.mp4"></video>
+  </div>
+  
+  <button id="soundBtn" onclick="soundToggle()">Sound?</button>
+
+</body>
+<script src="js/scripts.js"></script>
+</html>
